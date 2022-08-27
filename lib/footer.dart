@@ -20,12 +20,6 @@ class _FooterState extends State<Footer> {
     ProfilePage(),
     RecordPage(),
     ScanPage(d: '')
-    /*
-    Chat(),
-    Setting(),
-    Profile()
-
-     */
   ];
 
   final PageStorageBucket bucket = PageStorageBucket();
