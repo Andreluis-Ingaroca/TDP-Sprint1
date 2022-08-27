@@ -19,14 +19,8 @@ class _LoginPageState extends State<LoginPage> {
   final TextEditingController usernameController = new TextEditingController();
   final TextEditingController passwordController = new TextEditingController();
 
-  //bool isHiddenPassword;
-
   signIn(String username, password) async {
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
-    // Map data = {
-    //   "username": username,
-    //   "password": password
-    // };
 
     var jsonResponse = null;
     //Uri myUri = Uri.parse("http://192.168.100.28:3000/signin");
